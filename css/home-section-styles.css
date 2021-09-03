@@ -42,3 +42,19 @@
     text-align: center;
     margin: 40px,0px;
 }
+
+.btn{
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 10px black;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 20px;
+}
+.btn:hover{
+    color:black;
+}

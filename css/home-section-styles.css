@@ -1,0 +1,44 @@
+
+/* Home section */
+
+#home{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.8);
+    background: url(../img/mypic.png);
+    left: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.titles{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px,0px;
+}

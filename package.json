@@ -1,0 +1,23 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio profile",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build css/tailwind.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnnikrishnanNP/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnnikrishnanNP/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/UnnikrishnanNP/my-portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}

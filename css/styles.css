@@ -1,44 +1,4 @@
-/* styles */
-
-*{
-    margin: 0;
-    padding: 0; 
-    font-family: 'Azeret Mono', monospace;
-
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-/* styles for navbar */
-
-.navbar{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: sticky;
-    top: 0;
-}
-
-.navbar ul{
-    display: flex;
-    list-style: none;
-    margin: 20px 0;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 10px 25px;
-    transition: all .5s ease;
-}
-
-.navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px;
-}
-
-
-
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
